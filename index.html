@@ -9,22 +9,39 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
   <title>Frontend Mentor | Age calculator app</title>
-</head>
+  <link rel="stylesheet" href="./assets/css/styles.css" </head>
 
 <body>
-  Day
-  DD
-
-  Month
-  MM
-
-  Year
-  YYYY
-
-  -- years
-  -- months
-  -- days
-
+  <main>
+    <form novalidate>
+      <div class="container">
+        <div class="form-wrapper">
+          <label for="dayNumber">DAY</label>
+          <input type="number" name="dayNumber" id="dayNumber" placeholder="DD">
+          <span class="input-error"></span>
+        </div>
+        <div class="form-wrapper">
+          <label for="monthNumber">MONTH</label>
+          <input type="number" name=monthNumber" id="monthNumber" placeholder="MM">
+          <span class="input-error"></span>
+        </div>
+        <div class="form-wrapper">
+          <label for="yearNumber">YEAR</label>
+          <input type="number" name="yearNumber" id="yearNumber" placeholder="YYYY">
+          <span class="input-error"></span>
+        </div>
+      </div>
+      <div class="container">
+        <button type="submit">submit</button>
+      </div>
+    </form>
+    <ul>
+      <li><span id="total-year">--</span> years</li>
+      <li><span id="total-month">--</span> months</li>
+      <li><span id="total-days">--</span> days</li>
+    </ul>
+  </main>
+  <script src="./assets/js/main.js" type="module"></script>
 </body>
 
 </html>

@@ -62,6 +62,9 @@ define una variable llamada esAñoBisiesto que almacenará un valor booleano com
 
 leer año_nacimiento
 
+si año_nacimiento es divisible por 400 0 por 100 o por 4
+	esAñoBisiesto = true
+
 si año_nacimiento no es número
 	haga error_año = "must be a valid year"
 	imprima error_año
@@ -114,7 +117,11 @@ sino
 	haga dia_total = 0
 
   
-
+modulos:
+    formValidator:verificará el valor ingresado
+    dateCalculate:hará el cálculo de año,mes,día
+    animation:incluye animaciones de la app
+    
 
 	
 
