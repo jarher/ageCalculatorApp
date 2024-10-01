@@ -1,12 +1,12 @@
-const verifyIfIsLeapYear = (year) => {
+export const verifyIfIsLeapYear = (year) => {
   return year % 400 === 0 || year % 100 === 0 || year % 4 === 0 ? true : false;
 };
 
-const februaryDaysInALeapYear = (isLeapYear) => {
+export const februaryDaysInALeapYear = (isLeapYear) => {
   return isLeapYear ? 29 : 28;
 };
 
-const getCurrentDate = () => {
+export const getCurrentDate = () => {
   const currentDate = new Date();
   return {
     currentYear: currentDate.getFullYear(),
@@ -15,7 +15,7 @@ const getCurrentDate = () => {
   };
 };
 
-const monthDays = (daysInFebruary) => [
+export const monthDays = (daysInFebruary) => [
   31,
   daysInFebruary,
   31,

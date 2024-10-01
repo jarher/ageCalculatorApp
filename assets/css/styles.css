@@ -3,6 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 16px;
+}
+input {
+  font-size: 2rem;
+}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
@@ -12,4 +18,29 @@ input[type="number"]::-webkit-outer-spin-button {
 /* Para Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
+}
+.date-result {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.date-result > span,
+.date-result > div {
+  display: inline-block;
+  height: 100%;
+  font-size: 3rem;
+}
+.date-result > div {
+  overflow: hidden;
+}
+.date-result div span {
+  display: block;
+  height: 100%;
+  transition: all 50ms ease-in-out;
+}
+.initial-position {
+  margin-top: -80px;
+}
+.glide {
+  transform: translateY(-100%);
 }

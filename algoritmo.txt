@@ -29,12 +29,12 @@ dias de diferencia.
 cuando todos los inputs sean completados se mostrará el resultado
 
 7) para mostrar el resultado se puede generar un efecto de animación:
-	- los contenedores de años, mes y dias se aparecerán secuencialmente, en el orden correspondiente, primero aparece el de años, luego el de mes y finalmente el de días.
-	- el contenedor anteriormente mencionado se moverá de izquierda a derecha junto con un efecto fadeIn.
-	- los valores que mostrarán números de año, mes o día se generará un efecto de animación igualmente secuencial: inician con el valor de fecha correspondiente e incrementa hasta el valor calculado.
-	-luego de mostrar el valor númerico aparecerá el texto indicando año, mes, día según el caso, se aplicará un efecto fadeIn.
-	-si hay errores en el tipo de dato de entrada sólo se mostrará dos guiones (- -)
-	en el contenedor correspondiente al valor de número, sin efecto de animación secuencial.
+	- los contenedores de años, mes y dias se aparecerán secuencialmente, 
+	en el orden correspondiente, primero aparece el de años, luego el de mes y finalmente el de días.
+	- los valores que mostrarán números de año, mes o día se generará un efecto de animación 
+	igualmente secuencial: inician con el valor de 1 e incrementa hasta el valor calculado.
+	
+	
 
 pseudocodigo.
 

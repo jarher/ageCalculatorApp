@@ -25,7 +25,7 @@ export const resetValues = (initialValuesKeys, hasErrors, rest) => {
 
     if (!hasInvalidValues) {
       const inputValues = initialValuesKeys.map((id) => {
-        return { id: document.getElementById(id).value };
+        return { idValue: id, value: document.getElementById(id).value };
       });
 
       onSubmit(inputValues);

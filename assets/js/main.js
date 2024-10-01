@@ -1,3 +1,5 @@
+import dateSecuence from "./animation/dateSecuence.js";
+import calculateDateDifference from "./dateCalculate/calculateDateDifference.js";
 import {
   dayValidate,
   monthValidate,
@@ -71,8 +73,7 @@ formValidation({
   errorOutputSelector: ".input-error",
   formControlAttribute: "form-wrapper-invalid",
   onSubmit: (values) => {
-    document.getElementById("total-year").value = values.yearNumber;
-    document.getElementById("total-month").value = values.monthNumber;
-    document.getElementById("total-days").value = values.dayNumber;
+    const date = calculateDateDifference(values);
+    dateSecuence(date);
   },
 });
