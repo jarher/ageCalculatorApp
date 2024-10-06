@@ -34,9 +34,7 @@ const calculateDateDifference = (values) => {
 
   dayCalculated = dayResult;
 
-  const date = { yearCalculated, monthCalculated, dayCalculated };
-
-  return date;
+  return { yearCalculated, monthCalculated, dayCalculated };
 };
 
 const monthCalculate = (currentMonth, yearResult, birthMonth) => {
@@ -71,6 +69,7 @@ const dayCalculate = (
     monthRes -= 1;
     return { dayResult, monthRes };
   }
+
   const numDaysCurrentMonth = monthDays(februaryDaysInALeapYear(birthYear))[
     currentMonth
   ];

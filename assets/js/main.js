@@ -26,8 +26,7 @@ formValidation({
           value: 2,
           error: "Must be a valid day",
         },
-        customValidation: (birth_day, errors_validation) =>
-          dayValidate(birth_day, errors_validation),
+        customValidation: (birth_day) => dayValidate(birth_day),
         required: "This field is required",
       },
     },
