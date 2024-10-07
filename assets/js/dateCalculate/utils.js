@@ -1,5 +1,5 @@
 export const verifyIfIsLeapYear = (year) => {
-  return year % 400 === 0 || year % 100 === 0 || year % 4 === 0 ? true : false;
+  return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
 };
 
 export const februaryDaysInALeapYear = (isLeapYear) => {
@@ -15,7 +15,7 @@ export const getCurrentDate = () => {
   };
 };
 
-export const monthDays = (daysInFebruary) => [
+export const monthLengths = (daysInFebruary) => [
   31,
   daysInFebruary,
   31,
@@ -30,31 +30,36 @@ export const monthDays = (daysInFebruary) => [
   31,
 ];
 
-export const dayValidate = (birth_day) => {
-  const { currentYear } = getCurrentDate();
-
-  let isLeapYear = verifyIfIsLeapYear(
-    document.getElementById("yearNumber").value
+export const daysInCurrentMonth = (values, getCurrentDate) => {
+  const { currentYear, currentMonth, currentDay } = getCurrentDate();
+  const [birthDay, birthMonth, birthYear] = values;
+  const birthMonthValue = Number(birthMonth.value);
+  const numberOfDaysInMonth = monthLengths(
+    februaryDaysInALeapYear(verifyIfIsLeapYear(currentYear))
   );
-  const days = monthDays(februaryDaysInALeapYear(isLeapYear));
-  const birth_month = document.getElementById("monthNumber").value;
-  const birth_year = document.getElementById("yearNumber").value;
+  const birthDayValue = Number(birthDay.value);
 
-  if (birth_month > 12) {
-    return "Must be a valid date";
+  let yearResult = currentYear - birthYear.value;
+  let currentMonthValue = currentMonth + 1;
+  let monthResult;
+  // month calculation
+
+  if (birthMonthValue > currentMonthValue) {
+    yearResult -= 1;
+    monthResult = 12 - (birthMonthValue - currentMonthValue - 1);
+  } else {
+    monthResult = currentMonthValue - birthMonthValue;
   }
-  if (birth_day > days[birth_month - 1]) {
-    return birth_year < currentYear && birth_month <= 12
-      ? "Must be a valid date"
-      : "Must be a valid day";
-  }
-};
 
-export const monthValidate = (birth_month) => {
-  if (birth_month > 12) return "Must be a valid month";
-};
-
-export const yearValidate = (birth_year) => {
-  const { currentYear } = getCurrentDate();
-  if (birth_year > currentYear) return "Must be in the past";
+  //day calculation
+  //return year, month and day calculated
+  return birthDayValue === currentDay && currentMonthValue === birthMonthValue
+    ? [yearResult, monthResult, 0]
+    : [
+        yearResult,
+        monthResult + (birthDayValue > currentDay ? -1 : 0),
+        birthDayValue > currentDay
+          ? numberOfDaysInMonth[currentMonth - 1] - (birthDayValue - currentDay)
+          : currentDay - birthDayValue,
+      ];
 };

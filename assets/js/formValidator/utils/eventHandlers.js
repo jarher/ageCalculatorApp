@@ -13,7 +13,7 @@ export const addHandler = ({
     initialValuesKeys: eventValidatorProps.initialValuesKeys,
     changeErrorStateProps: {
       validatorSchema: eventValidatorProps.validatorSchema,
-      hasErrors: eventValidatorProps.hasErrors, // Use original array
+      hasErrors: eventValidatorProps.hasErrors, // Uses original array
       rest: eventValidatorProps.rest,
     },
   };
