@@ -1,5 +1,5 @@
 import {
-  getValueContainer,
+  getOutputContainer,
   resizeNumberContainer,
   animateContainer,
 } from "./DOMManipulation.js";
@@ -8,15 +8,15 @@ const dateSecuence = ({ yearCalculated, monthCalculated, dayCalculated }) => {
   const date = [
     {
       dateValue: yearCalculated,
-      dateValueContainer: getValueContainer("total-year"),
+      dateValueContainer: getOutputContainer("#total-year span"),
     },
     {
       dateValue: monthCalculated,
-      dateValueContainer: getValueContainer("total-month"),
+      dateValueContainer: getOutputContainer("#total-month span"),
     },
     {
       dateValue: dayCalculated,
-      dateValueContainer: getValueContainer("total-days"),
+      dateValueContainer: getOutputContainer("#total-days span"),
     },
   ];
   date.forEach((object) => {
@@ -28,6 +28,7 @@ const numberSecuenceAnimate = ({ dateValue, dateValueContainer }) => {
   let interCount = 0;
   let intervalId;
   resizeNumberContainer(dateValue, dateValueContainer);
+
   if (!intervalId) {
     intervalId = setInterval(() => {
       animateContainer(dateValueContainer, interCount);

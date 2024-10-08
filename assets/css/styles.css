@@ -86,6 +86,7 @@ input {
   border-radius: 0.3125rem;
   font-family: "Poppins-Bold";
   font-size: clamp(0.8rem, 4vw, 2.5rem);
+  height: 3.25rem;
   margin-top: 0.625rem;
   outline: 1px solid var(--Light-grey);
   padding: 1rem;
@@ -163,6 +164,16 @@ ul {
   height: 100%;
   transition: all 10ms ease-in-out;
 }
+@media screen and (min-width: 768px) {
+  main {
+    width: 31.25rem;
+    margin: 1.3125rem auto;
+  }
+  input {
+    height: 4.375rem;
+    font-size: 1.5625rem;
+  }
+}
 @media screen and (min-width: 900px) {
   body {
     height: 100vh;
@@ -171,9 +182,10 @@ ul {
     align-items: center;
   }
   main {
-    max-width: 52.8125rem;
+    width: 52.8125rem;
     margin: 0;
     padding: 3.4375rem;
+    border-bottom-right-radius: 13rem;
   }
 
   .container:nth-of-type(1) {
@@ -181,6 +193,7 @@ ul {
   }
   .container:nth-of-type(2) {
     justify-content: flex-end;
+    margin-top: 0;
     width: 45.625rem;
   }
   button {
@@ -191,10 +204,17 @@ ul {
     margin: 0;
   }
   .date-result {
-    height: 4.3375rem;
+    height: auto;
+  }
+  .date-result:nth-of-type(1) {
+    margin-top: -1.5rem;
+  }
+  .date-result:nth-of-type(2),
+  .date-result:nth-of-type(3) {
+    margin-top: -2.5rem;
   }
   .date-result > span,
   .date-result > div {
-    font-size: 3.75rem;
+    font-size: 5.4375rem;
   }
 }

@@ -34,10 +34,10 @@ export const daysInCurrentMonth = (values, getCurrentDate) => {
   const { currentYear, currentMonth, currentDay } = getCurrentDate();
   const [birthDay, birthMonth, birthYear] = values;
   const birthMonthValue = Number(birthMonth.value);
+  const birthDayValue = Number(birthDay.value);
   const numberOfDaysInMonth = monthLengths(
     februaryDaysInALeapYear(verifyIfIsLeapYear(currentYear))
   );
-  const birthDayValue = Number(birthDay.value);
 
   let yearResult = currentYear - birthYear.value;
   let currentMonthValue = currentMonth + 1;
