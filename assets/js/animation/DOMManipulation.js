@@ -11,50 +11,23 @@ export const getOutputContainer = (selector) =>
   document.querySelector(selector);
 
 export const resizeNumberContainer = (dateValue, container) => {
-  const dateValueLength = Number(dateValue).toString().length;
-  changeWidth(dateValueLength, container);
+  if (Number(dateValue).toString().length === 1) {
+    asignClass(container, "units-number");
+  }
+  if (Number(dateValue).toString().length === 2) {
+    asignClass(container, "dozens-number");
+  }
+  if (Number(dateValue).toString().length === 3) {
+    asignClass(container, "cents-number");
+  }
+  if (Number(dateValue).toString().length === 4) {
+    asignClass(container, "thousands-number");
+  }
 };
 
-const containerWidth = (numCharacters, characterWidth, letterSpacing) =>
-  numCharacters * (characterWidth + letterSpacing) + 5;
-
-const changeWidth = (dateValueLength, container) => {
-  const containerHeight = container.clientHeight;
-  const characterWidth = containerHeight / 2.5;
-  const letterSpacing = window.innerWidth > 1024 ? 3.5 : 3;
-
-  container.style.width = `${containerWidth(
-    dateValueLength,
-    characterWidth,
-    letterSpacing
-  )}px`;
-};
-//date result container resize
-
-const windowEvents = ["resize", "change"];
-
-const changeWidthListener = () => {
-  const dateResultContainer = Array.from(
-    document.getElementsByClassName("date-result")
+const asignClass = (container, className) => {
+  Array.from(container.classList).forEach((name) =>
+    container.classList.remove(name)
   );
-
-  dateResultContainer.forEach((mainContainer) => {
-    const divIdContainer = mainContainer.querySelector("div").id;
-    const container = getOutputContainer(`#${divIdContainer} span`);
-    const dateValueLength = container.innerText.length;
-    changeWidth(dateValueLength, container);
-  });
+  container.classList.add(className);
 };
-
-windowEvents.forEach((event) => {
-  if (event === "resize") {
-    window.addEventListener(event, () => changeWidthListener());
-  }
-  if (event === "change") {
-    window.matchMedia("(max-width: 1440px)").addEventListener(event, (e) => {
-      if (e.matches) {
-        changeWidthListener();
-      }
-    });
-  }
-});
