@@ -46,7 +46,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [Parcel js](https://parceljs.org/) - configuration build tool
 
@@ -58,6 +57,6 @@ improve programming techniques, refactor code appropriately and use parceljs to 
 ## Author
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Linkedin - [https://www.linkedin.com/in/jeffer-andres-rojas-herrera-20a735210/?trk=opento_sprofile_topcard]
+- Frontend Mentor - [https://www.frontendmentor.io/profile/jarher]
 

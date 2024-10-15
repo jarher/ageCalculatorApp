@@ -29,12 +29,14 @@ hr {
 .form-wrapper-invalid .input-error {
   color: var(--Light-red);
 }
-
+.form-wrapper-invalid input {
+  outline-color: var(--Light-red) !important;
+}
 label {
   color: var(--Smokey-grey);
   font-family: "Poppins-Bold";
   letter-spacing: 0.2rem;
-  font-size: 0.625rem;
+  font-size: clamp(0.625rem, 1vw + 3rem, 0.835rem);
 }
 input {
   border: none;
@@ -63,7 +65,11 @@ input[type="number"] {
 }
 
 input::placeholder {
-  color: var(--Light-grey);
+  color: rgb(137 137 137);
+}
+.input-error {
+  padding: 0.5rem 0 0;
+  display: block;
 }
 button {
   position: relative;

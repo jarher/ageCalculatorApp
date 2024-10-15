@@ -53,7 +53,7 @@ ul {
     width: clamp(2.5rem, 8vw + 3rem, 3rem);
   }
   .dozens-number {
-    width: clamp(4rem, 8vw + 3rem, 6rem);
+    width: clamp(4rem, 8vw + 3rem, 5rem);
   }
   .cents-number {
     width: clamp(7rem, 8vw + 3rem, 8.3rem);
@@ -78,18 +78,18 @@ ul {
   }
   .date-result > span,
   .date-result > div {
-    font-size: clamp(4rem, 1vw + 5.6875rem, 6rem);
+    font-size: clamp(4rem, 8vw + 3rem, 6rem);
   }
   .units-number {
-    width: clamp(3rem, 900px, 4rem);
+    width: clamp(4rem, 11vw + 3rem, 5rem);
   }
   .dozens-number {
-    width: clamp(4.2rem, 900px, 8.5rem);
+    width: clamp(4.2rem, 11vw + 3rem, 8.5rem);
   }
   .cents-number {
-    width: clamp(6.5rem, 900px, 10.5rem);
+    width: clamp(12.5rem, 11vw + 3rem, 13rem);
   }
   .thousands-number {
-    width: clamp(6.7rem, 900px, 14rem);
+    width: clamp(14.5rem, 11vw + 3rem, 15.5rem);
   }
 }
