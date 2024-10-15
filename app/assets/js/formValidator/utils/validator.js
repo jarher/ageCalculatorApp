@@ -5,7 +5,34 @@ class Validator {
     if (errors.hasOwnProperty("required") && !value) {
       return errors.required;
     }
+    if (type === "string") {
+      if (!/^[a-zA-Z]+$/.test(value)) {
+        return errors.string;
+      }
+      if (errors.hasOwnProperty("min")) {
+        if (value.length < errors.min.value) {
+          return errors.min.error;
+        }
+      }
+      if (errors.hasOwnProperty("max")) {
+        if (value.length < errors.max.value) {
+          return errors.min.error;
+        }
+      }
+    }
+    if (type === "email") {
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
+        return errors.email;
+      }
+    }
 
+    if (type === "password") {
+      if (
+        !/^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(value)
+      ) {
+        return errors.password;
+      }
+    }
     if (type === "number") {
       if (!/^[0-9]+$/.test(value)) {
         return errors.number;

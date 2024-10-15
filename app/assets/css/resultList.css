@@ -1,0 +1,95 @@
+ul {
+  margin-top: 2.5rem;
+}
+.date-result {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 3.7375rem;
+}
+
+.date-result > span,
+.date-result > div {
+  display: inline-block;
+  height: 100%;
+  font-size: clamp(2rem, 1vw + 2.6875rem, 3rem);
+  font-family: "Poppins-ExtraBoldItalic";
+}
+
+.date-result > div {
+  overflow: hidden;
+  color: var(--Purple);
+}
+.date-result div span {
+  display: block;
+  height: 100%;
+  transition: all 10ms ease-in-out;
+}
+.space {
+  display: inline-block !important;
+  margin: 0 0.25rem;
+}
+.units-number {
+  width: clamp(1rem, 3vw + 3rem, 2.5rem);
+}
+.dozens-number {
+  width: clamp(2rem, 3vw + 3rem, 4rem);
+}
+.cents-number {
+  width: clamp(3.2rem, 3vw + 3rem, 5.3rem);
+}
+.thousands-number {
+  width: clamp(7.5rem, 3vw + 3rem, 8.5rem);
+}
+@media screen and (min-width: 426px) {
+  .date-result {
+    height: 4.5rem;
+  }
+  .date-result > span,
+  .date-result > div {
+    font-size: clamp(2.6875rem, 1vw + 3.6875rem, 4rem);
+  }
+  .units-number {
+    width: clamp(2.5rem, 8vw + 3rem, 3rem);
+  }
+  .dozens-number {
+    width: clamp(4rem, 8vw + 3rem, 6rem);
+  }
+  .cents-number {
+    width: clamp(7rem, 8vw + 3rem, 8.3rem);
+  }
+  .thousands-number {
+    width: clamp(9.5rem, 8vw + 3rem, 10.5rem);
+  }
+}
+@media screen and (min-width: 1024px) {
+  ul {
+    margin: 0;
+  }
+  .date-result {
+    height: auto;
+  }
+  .date-result:nth-of-type(1) {
+    margin-top: -1.5rem;
+  }
+  .date-result:nth-of-type(2),
+  .date-result:nth-of-type(3) {
+    margin-top: -2.5rem;
+  }
+  .date-result > span,
+  .date-result > div {
+    font-size: clamp(4rem, 1vw + 5.6875rem, 6rem);
+  }
+  .units-number {
+    width: clamp(3rem, 900px, 4rem);
+  }
+  .dozens-number {
+    width: clamp(4.2rem, 900px, 8.5rem);
+  }
+  .cents-number {
+    width: clamp(6.5rem, 900px, 10.5rem);
+  }
+  .thousands-number {
+    width: clamp(6.7rem, 900px, 14rem);
+  }
+}

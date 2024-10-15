@@ -1,0 +1,129 @@
+.container {
+  display: flex;
+}
+.container:nth-of-type(1) {
+  gap: 1rem;
+}
+.container:nth-of-type(2) {
+  height: auto;
+  justify-content: center;
+  margin-top: 2rem;
+  position: relative;
+  width: 100%;
+}
+hr {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 1px;
+  border: 1px solid var(--Off-white);
+}
+.form-wrapper {
+  flex: 1;
+}
+
+.form-wrapper-invalid label,
+.form-wrapper-invalid .input-error {
+  color: var(--Light-red);
+}
+
+label {
+  color: var(--Smokey-grey);
+  font-family: "Poppins-Bold";
+  letter-spacing: 0.2rem;
+  font-size: 0.625rem;
+}
+input {
+  border: none;
+  border-radius: 0.3125rem;
+  font-family: "Poppins-Bold";
+  font-size: clamp(0.8rem, 4vw, 1.5625rem);
+  height: 3.25rem;
+  margin-top: 0.625rem;
+  outline: 1px solid var(--Light-grey);
+  padding: 1rem;
+  width: 100%;
+  transition: outline 0.2s ease-in-out;
+}
+input:hover,
+input:focus {
+  outline-color: var(--Purple);
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::placeholder {
+  color: var(--Light-grey);
+}
+button {
+  position: relative;
+  color: transparent;
+  width: 4.0625rem;
+  height: 4.0625rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--Purple);
+  z-index: 2;
+  outline: 1px solid var(--Purple);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+button img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+button:focus {
+  outline-color: transparent;
+  outline-offset: 2rem;
+  background-color: var(--Off-black);
+}
+button:hover {
+  background-color: var(--Off-black);
+  outline-color: transparent;
+}
+
+@media screen and (min-width: 426px) {
+  .date-result > span,
+  .date-result > div {
+    font-size: clamp(2.6875rem, 1vw + 3.6875rem, 4rem);
+  }
+}
+@media screen and (min-width: 768px) {
+  input {
+    height: 4.375rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container:nth-of-type(1) {
+    width: 34.0625rem;
+  }
+  .container:nth-of-type(2) {
+    justify-content: flex-end;
+    margin-top: 0;
+    width: 45.625rem;
+  }
+  input {
+    border: none;
+    border-radius: 0.3125rem;
+    font-family: "Poppins-Bold";
+    font-size: clamp(1.5625rem, 4vw, 2rem);
+  }
+  button {
+    height: 6.0625rem;
+    width: 6.0625rem;
+  }
+}

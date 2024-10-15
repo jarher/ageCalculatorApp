@@ -5,7 +5,9 @@ import {
   monthValidate,
   yearValidate,
 } from "./dateCalculate/dateValidate.js";
-import { formValidation } from "./formValidator/mainComponent/myForm.js";
+import validate from "./formValidator/index.js";
+
+const { formValidation } = validate;
 
 const validatorSchema = {
   dayNumber: {
@@ -65,12 +67,7 @@ formValidation({
     yearNumber: "",
   },
   validatorSchema,
-  formEvents: [
-    {
-      eventType: "submit",
-      element: document.querySelector("form"),
-    },
-  ],
+  formEvents: ["submit"],
   errorOutputSelector: ".input-error",
   formControlAttribute: "form-wrapper-invalid",
   onSubmit: (values) => {

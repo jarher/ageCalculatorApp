@@ -1,0 +1,23 @@
+{
+  "name": "age-calculator-app-main",
+  "version": "1.0.0",
+  "description": "age calculator",
+  "source": "app/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarher/ageCalculatorApp.git"
+  },
+  "author": "jarher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarher/ageCalculatorApp/issues"
+  },
+  "homepage": "https://github.com/jarher/ageCalculatorApp#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

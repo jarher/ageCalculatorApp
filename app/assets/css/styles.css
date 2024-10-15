@@ -1,0 +1,69 @@
+@import url("./formStyle.css");
+@import url("./resultList.css");
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-BoldItalic";
+  src: url("../fonts/Poppins-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-ExtraBoldItalic";
+  src: url("../fonts/Poppins-ExtraBoldItalic.ttf");
+}
+:root {
+  --Purple: hsl(259, 100%, 65%);
+  --Light-red: hsl(0, 100%, 67%);
+  --White: hsl(0, 0%, 100%);
+  --Off-white: hsl(0, 0%, 94%);
+  --Light-grey: hsl(0, 0%, 86%);
+  --Smokey-grey: hsl(0, 1%, 44%);
+  --Off-black: hsl(0, 0%, 8%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+}
+body {
+  background-color: var(--Off-white);
+  padding: 0 1rem;
+}
+main {
+  background-color: var(--White);
+  border-radius: 2rem 2rem 6rem 2rem;
+  margin: 5.3125rem 0 14.6875rem 0;
+  padding: 3.3125rem 1.5625rem 3.75rem 1.5625rem;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 31.25rem;
+    margin: 1.3125rem auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    width: 52.8125rem;
+    margin: 0;
+    padding: 3.4375rem;
+    border-bottom-right-radius: 13rem;
+  }
+}
