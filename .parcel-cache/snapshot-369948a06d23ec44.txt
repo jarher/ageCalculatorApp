@@ -1,4 +1,4 @@
-4543
+4544
 130C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\nth-check\lib\esm\index.d.ts.map133087216687290000 0
 129C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\caniuse-lite\data\regions\LC.js133732464931950000 0
 135C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\core\lib\public\Dependency.js133732463608080000 0
@@ -45,7 +45,7 @@
 121C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\parse-json\package.json132766622269460000 0
 143C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@swc\helpers\_\_array_with_holes\package.json133732464283700000 0
 113C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\fs\test133734344673709745 1
-89C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist133734996856647390 1
+89C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist133736765255009691 1
 138C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\reporter-cli\src\bundleReport.js133732463615650000 0
 128C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\svgo\plugins\removeComments.js133087216466210000 0
 128C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@swc\helpers\esm\_construct.js133732464283700000 0
@@ -98,7 +98,7 @@
 130C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\profiler\lib\Tracer.d.ts133732463657930000 0
 130C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\source-map\dist\types.js133732463631230000 0
 136C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\css-tree\lib\syntax\node\Combinator.js132766649215220002 0
-94C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\README.md133734390620151997 0
+94C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\README.md133735014771053011 0
 148C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@swc\helpers\cjs\_define_enumerable_properties.cjs133732464283700000 0
 144C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\css-tree\lib\syntax\pseudo\nth-last-of-type.js132766649215220002 0
 129C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\type-fest\source\utilities.d.ts132805343229590000 0
@@ -310,6 +310,7 @@
 129C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\caniuse-lite\data\regions\GE.js133732464931950000 0
 137C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\caniuse-lite\data\features\xhtmlsmil.js133732464931950000 0
 110C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@swc\counter133734344191427818 1
+111C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\index.5634ab85.js.map133736765254702444 0
 159C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc133732463608080000 0
 106C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\htmlnano133734343865739740 1
 111C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\react-refresh133734344465281333 1
@@ -613,7 +614,7 @@
 132C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133732464965470000 0
 146C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\transformer-babel\src\babelErrorUtils.js133732463703630000 0
 129C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\caniuse-lite\data\regions\YT.js133732464931950000 0
-118C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\formValidator\utils133734314908304885 1
+118C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\formValidator\utils133736761147251597 1
 113C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\is-json\LICENSE133732465056780000 0
 117C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\has-flag\index.d.ts132766622721520000 0
 116C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\utility-types\dist133734344900259045 1
@@ -928,7 +929,7 @@
 155C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\runtime-js\src\helpers\browser\import-polyfill.js133732463683130000 0
 132C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@babel\helper-validator-identifier133734343934518565 1
 122C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\htmlnano\lib\helpers.cjs133732464600500000 0
-121C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\Poppins-BoldItalic.981a71d1.ttf133734996851471040 0
+121C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\Poppins-BoldItalic.981a71d1.ttf133736765253845831 0
 125C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\lmdb\src\ordered-binary.cpp133732464287430000 0
 107C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\lmdb\dict133734344572666034 1
 121C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\color-name\package.json132766623078850000 0
@@ -2725,7 +2726,7 @@
 128C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\cosmiconfig\dist\defaults.d.ts133732464970050000 0
 147C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@babel\highlight\node_modules\color-name\index.js132766623082750000 0
 137C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\caniuse-lite\data\features\audio-api.js133732464931950000 0
-113C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\icon-arrow.50d14c4d.svg133734996850733759 0
+113C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\icon-arrow.50d14c4d.svg133736765253190445 0
 142C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\source-map\dist\wasm-bindings-web.js133732463631230000 0
 126C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\cosmiconfig\dist\defaults.js133732464970050000 0
 130C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\cosmiconfig\dist\defaults.js.map133732464970050000 0
@@ -3410,7 +3411,7 @@
 134C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\caniuse-lite\data\features\webnfc.js133732464931950000 0
 124C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\utils\package.json133732463607880000 0
 121C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\package-manager133734345209484598 1
-100C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\index.html133734996855846840 0
+100C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\index.html133736765253482520 0
 138C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\caniuse-lite\data\features\websockets.js133732464931950000 0
 140C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\caniuse-lite\data\features\webtransport.js133732464931950000 0
 125C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\transformer-svg\src133734344756274938 1
@@ -4392,7 +4393,7 @@
 138C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\core\lib\requests\PathRequest.js133732463608080000 0
 140C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\core\lib\requests\TargetRequest.js133732463608080000 0
 146C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\core\lib\requests\WriteBundlesRequest.js133732463608080000 0
-115C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\Poppins-Bold.23054c2a.ttf133734996852037061 0
+115C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\Poppins-Bold.23054c2a.ttf133736765254489949 0
 130C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\core\lib\public\Asset.js133732463608080000 0
 131C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\core\lib\public\Config.js133732463608080000 0
 136C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\@parcel\core\lib\public\Environment.js133732463608080000 0
@@ -4511,23 +4512,23 @@
 111C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\.bin\svgo.cmd133734345233587555 0
 125C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\.bin\update-browserslist-db133734345233779159 0
 129C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\node_modules\.bin\update-browserslist-db.cmd133734345233779159 0
-116C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\favicon-32x32.30e62e77.png133734996850743768 0
-108C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\index.26711cce.css133734996855846840 0
-112C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\index.26711cce.css.map133734996856537603 0
-107C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\index.2b4f5d75.js133734996855846840 0
-111C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\index.2b4f5d75.js.map133734996856537603 0
-126C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\Poppins-ExtraBoldItalic.e2a3ccbd.ttf133734996851401000 0
-118C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\Poppins-Regular.d5d72893.ttf133734996851219156 0
+116C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\favicon-32x32.30e62e77.png133736765253130375 0
+108C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\index.26711cce.css133736765253466817 0
+112C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\index.26711cce.css.map133736765254239087 0
+107C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\index.5634ab85.js133736765253472764 0
+126C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\Poppins-ExtraBoldItalic.e2a3ccbd.ttf133736765254470112 0
+118C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\dist\Poppins-Regular.d5d72893.ttf133736765254068796 0
 115C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\design\desktop-error-empty.jpg133538692690000000 0
 117C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\design\desktop-error-invalid.jpg133538692690000000 0
 120C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\design\desktop-error-whole-form.jpg133538692690000000 0
 109C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\design\mobile-design.jpg133538692690000000 0
 99C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\css133731752441874492 1
 108C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\animation133727241180346893 1
-112C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\formValidator133734314908557767 1
-106C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\main.js133734333874814422 0
-121C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\formValidator\index.js133734333674796056 0
-135C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\formValidator\validatorInitialize.js133734294540130916 0
+112C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\formValidator133736761148831733 1
+106C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\main.js133736764754596565 0
+121C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\formValidator\index.js133736757762282752 0
+135C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\formValidator\validatorInitialize.js133736741870763922 0
+135C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\formValidator\utils\errorHandling.js133736757584463421 0
 135C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\formValidator\utils\eventHandlers.js133734301113650970 0
 131C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\formValidator\utils\formUtils.js133733440561841656 0
 137C:\Users\jeffr\Desktop\PROYECTOS\PROYECTOS JAVASCRIPT\JUNIOR\age-calculator-app-main\app\assets\js\formValidator\utils\validationUtils.js133733413435061172 0
