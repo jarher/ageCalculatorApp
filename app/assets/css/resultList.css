@@ -36,7 +36,7 @@ ul {
   width: clamp(2rem, 3vw + 3rem, 4rem);
 }
 .cents-number {
-  width: clamp(3.2rem, 3vw + 3rem, 5.3rem);
+  width: clamp(6rem, 3vw + 3rem, 7rem);
 }
 .thousands-number {
   width: clamp(7.5rem, 3vw + 3rem, 8.5rem);
@@ -56,7 +56,7 @@ ul {
     width: clamp(4rem, 8vw + 3rem, 5rem);
   }
   .cents-number {
-    width: clamp(7rem, 8vw + 3rem, 8.3rem);
+    width: clamp(7.5rem, 8vw + 3rem, 8.5rem);
   }
   .thousands-number {
     width: clamp(9.5rem, 8vw + 3rem, 10.5rem);
