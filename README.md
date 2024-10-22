@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/jarher/ageCalculatorApp]
+- Solution URL: [https://www.frontendmentor.io/solutions/age-calculator-app-html-css-js-parceljs-UtTSfED6yO]
 - Live Site URL: [https://age-calculator-app-wine-nine.vercel.app/]
 
 ## My process
